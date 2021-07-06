@@ -17,9 +17,8 @@ import {
 import NavBar from "../components/Navbar";
 import ProfilePageHeader from "../components/Headers/ProfilePageHeader";
 import DefaultFooter from "../components/Footers/DefaultFooter";
-import ResultHeader from "../components/Headers/resultHeader";
-import trajets from "../components/trajets";
-function TrajetList() {
+import AddTrajetHeader from "../components/Headers/AddtrajetHeader";
+function AddTrajet() {
   const [pills, setPills] = React.useState("2");
   React.useEffect(() => {
     document.body.classList.add("profile-page");
@@ -36,19 +35,13 @@ function TrajetList() {
     <>
       <NavBar />
       <div className="wrapper">
-        <ResultHeader />
-        <div className="section section-about-us">
-          <Container>
-            <Row>
-              <Col className="ml-auto mr-auto text-center" md="8">
-                <trajets />
-              </Col>
-            </Row>
-          </Container>
+        <AddTrajetHeader />
+        <div>
+          <DefaultFooter />
         </div>
       </div>
     </>
   );
 }
 
-export default TrajetList;
+export default AddTrajet;

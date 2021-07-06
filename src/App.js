@@ -4,10 +4,11 @@ import LoginPage from "./Screens/LoginPage";
 import SearchPage from "./Screens/searchPage";
 import TrajetList from "./Screens/TrajetList";
 import SignupPage from "./Screens/SignupPage";
+import AddTrajet from "./Screens/AddTrajet";
 
 function App() {
-  // return <LandingPage />;
-  return <LandingPage />;
+  // return <SearchPage />;
+  return <TrajetList />;
 }
 
 export default App;

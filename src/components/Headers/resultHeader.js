@@ -43,7 +43,7 @@ function ResultHeader() {
         ></div>
         <div className="content-center">
           <Container>
-            <h1 className="title">Choisissez le voyage qui vous plaîts.</h1>
+            <h1 className="title">Résultats </h1>
             <div className="text-center"></div>
           </Container>
         </div>
